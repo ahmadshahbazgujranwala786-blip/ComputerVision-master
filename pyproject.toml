@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "face-recognition-pipeline"
+version = "0.1.0"
+description = "Real-time multi-person face detection, alignment, and ArcFace embedding pipeline."
+requires-python = ">=3.10"
+license = "MIT"
+
+dependencies = [
+    "opencv-python",
+    "numpy",
+    "onnxruntime",
+    "faiss-cpu",
+    "psycopg",
+    "python-dotenv",
+    "pywhatkit",
+    "soundfile",
+    "sounddevice",
+    "supertonic",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

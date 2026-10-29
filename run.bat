@@ -1,0 +1,9 @@
+@echo off
+cd /d "%~dp0"
+if not exist ".venv\Scripts\python.exe" (
+  echo First run setup is required...
+  powershell -ExecutionPolicy Bypass -File "%~dp0setup.ps1"
+  if errorlevel 1 pause & exit /b 1
+)
+.venv\Scripts\python.exe frontend.py
+pause

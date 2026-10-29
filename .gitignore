@@ -1,0 +1,93 @@
+
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.vscode/
+data/attendance.db
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+
+.vscode/
+.idea/
+
+data/
+*.npz
+
+*.log
+*.tmp
+
+.DS_Store
+Thumbs.db
+
+*.egg-info/
+
+models/arcface/w600k_r50.onnx
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Large Datasets and Media
+*.mp4
+*.avi
+*.zip
+*.tar.gz
+
+# Model Weights
+*.h5
+*.pt
+*.onnx
+*.pkl
+
+# IDE settings
+.vscode/
+.idea/# Sensitive local configuration and generated/runtime data
+.env
+.env.*
+!.env.example
+/data/
+*.db
+*.sqlite
+*.sqlite3
+*.faiss
+PyWhatKit_DB.txt
+*.log
+*.bak
+*.before_*
+
+# Local environments and Python build artifacts
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Large local model weights and packaged runtime builds
+/models/
+/attendance/Finale app/
+*.gguf
+*.onnx
+*.h5
+*.pt
+*.pkl
+*.npz
+*.wav
+*.mp4
+*.avi
+*.zip
+*.tar.gz
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
